@@ -1,0 +1,35 @@
+.converter-options {
+  width: 27%;
+}
+
+.converter-options-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.converter-option {
+  width: 100%;
+}
+
+.currency__option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: calc(12px + 4 * ((100vw - 319px) / 1601));
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1023px) {
+  .converter-options {
+    width: calc(280px + 120 * ((100vw - 319px) / 1601)) !important;
+    margin: 2vh 0;
+  }
+}

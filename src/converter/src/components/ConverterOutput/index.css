@@ -1,0 +1,34 @@
+.converter-output__initial {
+  font-size: calc(14px + 8 * ((100vw - 319px) / 1601));
+  font-weight: 500;
+  margin-top: 1.5vh;
+  color: rgba(3, 3, 3, 0.65);
+}
+
+.converter-output__result {
+  font-size: calc(22px + 12 * ((100vw - 319px) / 1601));
+  font-weight: 700;
+  margin-top: 1.5vh;
+  color: rgb(8, 17, 34);
+}
+
+.converter-output {
+  padding-left: 4%;
+  margin-top: 3vh;
+}
+
+@media screen and (max-width: 1023px) {
+  .converter-output {
+    padding-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}

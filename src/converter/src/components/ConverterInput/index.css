@@ -1,0 +1,76 @@
+@charset "UTF-8";
+input {
+  outline: none;
+  display: block;
+}
+
+.converter-amount {
+  width: 23%;
+}
+
+.input-header {
+  display: block;
+  font-size: calc(14px + 8 * ((100vw - 319px) / 1601));
+  font-weight: 700;
+  margin-bottom: 1.5vh;
+}
+
+.converter-amount__field {
+  width: 94%;
+  min-height: 38px;
+  padding: 0px 3% 0 0;
+  font-size: calc(12px + 6 * ((100vw - 319px) / 1601));
+  font-weight: 500;
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+  border-color: hsl(0deg, 0%, 80%);
+  border-radius: 0 4px 4px 0;
+}
+
+.converter-amount__wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: calc(12px + 6 * ((100vw - 319px) / 1601));
+  font-weight: 500;
+}
+
+.converter-amount__sign-USD::after {
+  content: "$";
+}
+
+.converter-amount__sign-UAH::after {
+  content: "₴";
+}
+
+.converter-amount__sign-EUR::after {
+  content: "€";
+}
+
+[class|=converter-amount__sign] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-width: 1px 0px 1px 1px;
+  border-style: solid;
+  min-height: 38px;
+  padding-left: 3%;
+  border-color: hsl(0deg, 0%, 80%);
+  border-radius: 4px 0 0 4px;
+}
+
+@media screen and (max-width: 1023px) {
+  .converter-amount {
+    width: calc(280px + 120 * ((100vw - 319px) / 1601)) !important;
+  }
+}

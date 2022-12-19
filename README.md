@@ -3,7 +3,7 @@
 ## General information
 
 * Вихідний код знаходиться у папці src
-* Проекти розмішено за [посиланням](dilienko.github.io/mini-projects3/)
+* Проекти розмішено за [посиланням](https://dilienko.github.io/mini-projects3/)
 
 ## Converter
 

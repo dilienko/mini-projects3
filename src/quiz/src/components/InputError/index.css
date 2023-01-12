@@ -1,0 +1,6 @@
+.error-message {
+  color: rgb(187, 6, 6);
+  font-style: italic;
+  font-size: calc(12px + 2 * ((100vw - 319px) / 1601));
+  margin: 5px 0;
+}

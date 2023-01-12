@@ -1,0 +1,34 @@
+.test {
+  padding: 15px 8px;
+  border: 1px solid hsl(0deg, 0%, 70%);
+  border-radius: 4px;
+  margin: 1.5vh;
+  position: relative;
+}
+
+.test-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1vh 0;
+}
+
+.test__date {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  font-size: calc(10px + 4 * ((100vw - 319px) / 1601));
+  font-style: italic;
+}
+
+.test__name {
+  width: 30%;
+  overflow: hidden;
+  font-size: calc(18px + 6 * ((100vw - 319px) / 1601));
+  font-weight: 700;
+}
+
+.test__result {
+  font-size: calc(18px + 6 * ((100vw - 319px) / 1601));
+  font-weight: 700;
+}

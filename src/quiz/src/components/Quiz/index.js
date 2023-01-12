@@ -20,7 +20,7 @@ function Quiz({ step, setStep, questions, userAnswers, setUserAnswers}){
             <QuizQuestion question={questions[step]}
              setChosenAnswers={setChosenAnswers}/>
             <div className="btn-wrapper btn_pos_right">
-                <button className='quiz-button'
+                <button className='quiz-button quiz-button_color_green'
                 onClick={toNextQuestion}>Next</button>
             </div>
         </>

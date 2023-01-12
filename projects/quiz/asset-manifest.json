@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.eee2e1f0.css",
-    "main.js": "/static/js/main.613b37b6.js",
-    "static/media/result.png": "/static/media/result.666a740588a2f542bb9c.png",
-    "static/media/logo.png": "/static/media/logo.aa237a640b21488535b5.png",
-    "index.html": "/index.html",
-    "main.eee2e1f0.css.map": "/static/css/main.eee2e1f0.css.map",
-    "main.613b37b6.js.map": "/static/js/main.613b37b6.js.map"
+    "main.css": "/mini-projects-final/projects/quiz/static/css/main.eee2e1f0.css",
+    "main.js": "/mini-projects-final/projects/quiz/static/js/main.dff80acc.js",
+    "static/media/result.png": "/mini-projects-final/projects/quiz/static/media/result.666a740588a2f542bb9c.png",
+    "static/media/logo.png": "/mini-projects-final/projects/quiz/static/media/logo.aa237a640b21488535b5.png",
+    "index.html": "/mini-projects-final/projects/quiz/index.html",
+    "main.eee2e1f0.css.map": "/mini-projects-final/projects/quiz/static/css/main.eee2e1f0.css.map",
+    "main.dff80acc.js.map": "/mini-projects-final/projects/quiz/static/js/main.dff80acc.js.map"
   },
   "entrypoints": [
     "static/css/main.eee2e1f0.css",
-    "static/js/main.613b37b6.js"
+    "static/js/main.dff80acc.js"
   ]
 }

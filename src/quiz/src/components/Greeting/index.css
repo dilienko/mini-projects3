@@ -28,11 +28,11 @@
   text-align: center;
   font-weight: 700;
   font-size: calc(20px + 18 * ((100vw - 319px) / 1601));
-  margin: 2vh 0;
+  margin: 2vh 0 3vh;
 }
 
 .greeting__text {
-  margin: 3vh 0 2vh;
+  margin: 1.5vh 0;
   font-weight: 500;
   font-size: calc(14px + 14 * ((100vw - 319px) / 1601));
   color: rgb(68, 65, 65);
@@ -47,12 +47,23 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin: 2vh 0;
+  margin: 2vh 0 1vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.greeting__input {
+  width: 40%;
+  height: 38px;
+  border: 1px solid hsl(0deg, 0%, 70%);
+  border-radius: 4px;
+  padding: 0 10px;
+  outline: none;
+  font-weight: 500;
+  margin: 1vh 0;
 }
 
 .greeting__button, .result__button {

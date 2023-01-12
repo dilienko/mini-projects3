@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import './index.css'
 
 function QuizQuestion({question, setChosenAnswers}){
-    const answers = [...question.incorrectAnswers, question.correctAnswer].sort((a, b) => a.localeCompare(b))
+    const answers = question.answers || [...question.incorrectAnswers, question.correctAnswer].sort((a, b) => a.localeCompare(b))
     const [activeAnswer, setActiveAnswer] = useState({0: '', 1: '', 2: '', 3: ''})
 
     const handleClick = (answer, index) =>{

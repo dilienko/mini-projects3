@@ -1,0 +1,42 @@
+header {
+  width: 90%;
+  padding: 2vh 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app-link {
+  color: white;
+  margin: 0 10px;
+  font-size: calc(16px + 12 * ((100vw - 319px) / 1601));
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.app-link.active {
+  color: yellow;
+}
+.app-link:hover {
+  -webkit-transform: scale(98.5%);
+          transform: scale(98.5%);
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+.link-separator {
+  font-size: calc(16px + 12 * ((100vw - 319px) / 1601));
+  font-weight: 500;
+  color: white;
+}

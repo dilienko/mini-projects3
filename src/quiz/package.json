@@ -1,6 +1,7 @@
 {
   "name": "quiz",
   "version": "0.1.0",
+  "homepage": "https://dilienko.github.io/mini-projects3/projects/quiz",
   "private": true,
   "dependencies": {
     "@hookform/error-message": "^2.0.1",
